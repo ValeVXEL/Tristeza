@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valeria Ek</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <style>
+  .heart {
+    width: 20px;
+    height: 20px;
+    background-color: #800080; /* Color morado */
+    position: relative;
+    transform: rotate(-45deg);
+}
+.heart::before,
+.heart::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #800080;
+    border-radius: 50%;
+    position: absolute;
+}
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+.heart::after {
+    left: 10px;
+    top: 0;
+}
+</style>
+</head>
+
+<body>
+  <header class="d-flex justify-content-center py-3">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Para mi beba</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#Monsebb" class="btn btn-dark" aria-current="page">Te quiero</a></li>
+          <li class="nav-item"><a href="#Tusvirtudes" class="nav-link">Tus virtudes</a></li>
+          <li class="nav-item"><a href="#Abrircuando" class="nav-link">Abrir cuando</a></li>
+        </ul>
+      </header>
+    </div>
+  </header>
+  <main>
+    <section id="Monsebb" class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img id="fotoperfil" src="assets/Perfil.jpg" class="d-block mx-lg-auto img-fluid, rounded-4"
+            alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="titulo" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Monse preciosa</h1>
+          <p class="lead">Para mi soulmate, a pesar de no poder vernos mucho, te amo y quise hacer esto para que lo sepas. No 
+            importa cuando tiempo estemos separadas, siempre serás mi lugar seguro.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="Tusvirtudes" class="container px-4 py-5" id="hanging-icons">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Tus virtudes</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              >
+              <div class="heart"></div>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Paciencia</h3>
+            <p>Tienes la capacidad para tenerle paciencia hasta a las cosas que a cualquier persona desesperarían
+              . Siempre sabes mantener la calma en situaciones difíciles y esperas con tranquilidad  e incluso cuando ese
+               no es el caso, siempre intentas actuar de la mejor manera.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-black bg-gradient fs-2 mb-3">
+              <div class="heart"></div>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Escuchar</h3>
+            <p>Tienes una habilidad especial para escuchar a los demás y darles el tiempo que necesitan para expresarse, no 
+              importando incluso si a veces tú te encuentras mal. La serenidad, el amor y confianza
+              que irradias es contagiosa y eso es de las coas que más amo de ti.</p>
+          </div>
+          <div class="feature col">
+            <div>
+              
+              <div class="heart"></div>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Amar</h3>
+            <p>Eres la persona que cononozco que más ama a sus amigos, no importa qué, tú siempre piensas en los demás,
+              eso es algo tan puro que he descubierto de ti, y todo el que te conozca se da cuenta, por eso siempre encuentras 
+            amigos buenos que te quieren. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Abrircuando">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Abrir cuando</h2>
+      </div>
+      <div class="row" style="text-align: center" width="50" height="50">
+        <div class="col-lg-6">
+          <img src="assets/Triste.webp" width="120" height="120">
+          <h2 class="fw-normal">"Te sientas triste"</h2>
+          <p>Cuando te sientas triste recuerda que no estás sola, puedes venir a mi, yo te escucharé siempre.
+          </p>
+          <p><a href="https://heroic-conkies-0d96c3.netlify.app" class="btn btn-secondary">Abrir »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <img src="assets/Feliz.webp" width="120" height="120">
+          <h2 class="fw-normal">Te sientas feliz</h2>
+          <p>Cuando estes feliz y solo quieras estar más feliz, te amo. 
+          </p>
+          <p><a class="btn btn-secondary" href="https://silly-sable-899848.netlify.app">Abrir »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <img src="assets/Extrañar.jpg" width="120" height="120">
+          <h2 class="fw-normal">Te sientas sola o me extrañes</h2>
+          <p>Cuando te sientas sola o me extrañes, recuerda que siempre estaré para ti.
+          </p>
+          <p><a class="btn btn-secondary" href="https://silly-sable-899848.netlify.app">Abrir »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <img src="assets/Molesta.jpg" width="120" height="120">
+          <h2 class="fw-normal">Te sientas molesta</h2>
+          <p>Cuando estes molesta, conmigo, con tu familia u otros amigos, recuerda que te queremos. 
+          </p>
+          <p><a class="btn btn-secondary" href="https://silly-sable-899848.netlify.app">Abrir »</a></p>
+        </div><!-- /.col-lg-4 -->
+    </section>
+  </main>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Vale, TE AMO BEBA</span>
+    </div>
+
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
